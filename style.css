@@ -138,3 +138,49 @@ button:focus {
     opacity: 1;
   }
 }
+
+.backContainer {
+  position: fixed;
+  width: 190px;
+  height: 50px;
+  top: 15px;
+  left: 15px;
+  background-color: transparent;
+  z-index: 1003;
+}
+
+.backButton {
+  width: 190px;
+  height: 50px;
+  background-color: #190142;
+  border: none;
+  color: #fff;
+  display: flex;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  word-break: keep-all;
+  white-space: nowrap;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 5px;
+  gap: 6px;
+}
+
+.backButton i {
+  font-size: 20px;
+}
+
+.backButton:hover {
+  background-color: #23015e;
+  transition: 0.2s;
+  cursor: pointer;
+  color: #fff;
+}
+
+.backButton p {
+  font-size: 15px;
+}
