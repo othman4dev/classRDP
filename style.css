@@ -2,7 +2,9 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background-color: #0b0c1b;
   font-family: "Maven Pro", sans-serif;
+  color: #adadad;
 }
 
 /* remove the focus from all input fields.*/
@@ -20,7 +22,7 @@ button:focus {
   left: 50%;
   height: 100%;
   width: 100%;
-  background-color: rgb(255, 255, 255);
+  background-color: #0b0c1b;
   transform: translate(-50%, -50%);
   max-width: 900px;
   display: flex;
